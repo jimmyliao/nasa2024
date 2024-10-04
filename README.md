@@ -2,7 +2,7 @@
 
 Kay: Responsible for capturing data sets and processing data sets + processing chart data
 
-Jimmy Liao: The data loading speed + LLM deployment must be addressed in the near future (this part will require rewriting the story function due to changes in our page structure), and the deployment website will be online
+Jimmy Liao: LLM deployment must be addressed in the near future (this part will require rewriting the story function due to changes in our page structure), and the deployment website will be online
 
 Noflag: Integrate the entire architecture (add all current functions) + handle LLM function integration
 
