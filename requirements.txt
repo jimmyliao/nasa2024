@@ -1,0 +1,7 @@
+folium
+geopy
+google-generativeai
+plotly
+sqlalchemy
+streamlit
+streamlit-lottie
