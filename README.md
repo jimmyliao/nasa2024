@@ -36,6 +36,7 @@ Yuijuhn Ting: Responsible for page design and integrating all functions into the
 **5. Kaggle:** 
   + https://www.kaggle.com/code/andrewmahandrew/temperature-map/notebook
   + https://www.kaggle.com/code/voraseth/climate-change-indicators-eda-010/input
+  + https://www.kaggle.com/datasets/danielvalyano/country-coord
 
 ### NASA Dataset
 
