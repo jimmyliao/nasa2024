@@ -1,0 +1,237 @@
+index,name,population,density,land-size,median_age,urban_pop,image_url,latitude,longitude
+0,China,"1,439,323,776",153,"9,388,211",38,61 %,https://www.worldometers.info/img/flags/ch-flag.gif,35.86166,104.195397
+1,United States,"331,002,651",36,"9,147,420",38,83 %,https://www.worldometers.info/img/flags/us-flag.gif,37.09024,-95.712891
+2,Pakistan,"220,892,340",287,"770,880",23,35 %,https://www.worldometers.info/img/flags/pk-flag.gif,30.375321,69.345116
+3,Nigeria,"206,139,589",226,"910,770",18,52 %,https://www.worldometers.info/img/flags/ni-flag.gif,9.081999,8.675277
+4,Russia,"145,934,462",9,"16,376,870",40,74 %,https://www.worldometers.info/img/flags/rs-flag.gif,61.52401,105.318756
+5,Japan,"126,476,461",347,"364,555",48,92 %,https://www.worldometers.info/img/flags/ja-flag.gif,36.204824,138.252924
+6,Philippines,"109,581,078",368,"298,170",26,47 %,https://www.worldometers.info/img/flags/rp-flag.gif,12.879721,121.774017
+7,Vietnam,"97,338,579",314,"310,070",32,38 %,https://www.worldometers.info/img/flags/vm-flag.gif,14.058324,108.277199
+8,Turkey,"84,339,067",110,"769,630",32,76 %,https://www.worldometers.info/img/flags/tu-flag.gif,38.963745,35.243322
+9,Germany,"83,783,942",240,"348,560",46,76 %,https://www.worldometers.info/img/flags/gm-flag.gif,51.165691,10.451526
+10,United Kingdom,"67,886,011",281,"241,930",40,83 %,https://www.worldometers.info/img/flags/uk-flag.gif,55.378051,-3.435973
+11,Italy,"60,461,826",206,"294,140",47,69 %,https://www.worldometers.info/img/flags/it-flag.gif,41.87194,12.56738
+12,South Africa,"59,308,690",49,"1,213,090",28,67 %,https://www.worldometers.info/img/flags/sf-flag.gif,-30.559482,22.937506
+13,Kenya,"53,771,296",94,"569,140",20,28 %,https://www.worldometers.info/img/flags/ke-flag.gif,-0.023559,37.906193
+14,Colombia,"50,882,891",46,"1,109,500",31,80 %,https://www.worldometers.info/img/flags/co-flag.gif,4.570868,-74.297333
+15,Uganda,"45,741,007",229,"199,810",17,26 %,https://www.worldometers.info/img/flags/ug-flag.gif,1.373333,32.290275
+16,Algeria,"43,851,044",18,"2,381,740",29,73 %,https://www.worldometers.info/img/flags/ag-flag.gif,28.033886,1.659626
+17,Ukraine,"43,733,762",75,"579,320",41,69 %,https://www.worldometers.info/img/flags/up-flag.gif,48.379433,31.16558
+18,Afghanistan,"38,928,346",60,"652,860",18,25 %,https://www.worldometers.info/img/flags/af-flag.gif,33.93911,67.709953
+19,Canada,"37,742,154",4,"9,093,510",41,81 %,https://www.worldometers.info/img/flags/ca-flag.gif,56.130366,-106.346771
+20,Saudi Arabia,"34,813,871",16,"2,149,690",32,84 %,https://www.worldometers.info/img/flags/sa-flag.gif,23.885942,45.079162
+21,Peru,"32,971,854",26,"1,280,000",31,79 %,https://www.worldometers.info/img/flags/pe-flag.gif,-9.189967,-75.015152
+22,Malaysia,"32,365,999",99,"328,550",30,78 %,https://www.worldometers.info/img/flags/my-flag.gif,4.210484,101.975766
+23,Ghana,"31,072,940",137,"227,540",22,57 %,https://www.worldometers.info/img/flags/gh-flag.gif,7.946527,-1.023194
+24,Nepal,"29,136,808",203,"143,350",25,21 %,https://www.worldometers.info/img/flags/np-flag.gif,28.394857,84.124008
+25,Madagascar,"27,691,018",48,"581,795",20,39 %,https://www.worldometers.info/img/flags/ma-flag.gif,-18.766947,46.869107
+26,Côte d'Ivoire,"26,378,274",83,"318,000",19,51 %,https://www.worldometers.info/img/flags/iv-flag.gif,7.539989,-5.54708
+27,Australia,"25,499,884",3,"7,682,300",38,86 %,https://www.worldometers.info/img/flags/as-flag.gif,-25.274398,133.775136
+28,Taiwan,"23,816,775",673,"35,410",42,79 %,,23.69781,120.960515
+29,Burkina Faso,"20,903,273",76,"273,600",18,31 %,https://www.worldometers.info/img/flags/uv-flag.gif,12.238333,-1.561593
+30,Romania,"19,237,691",84,"230,170",43,55 %,https://www.worldometers.info/img/flags/ro-flag.gif,45.943161,24.96676
+31,Chile,"19,116,201",26,"743,532",35,85 %,https://www.worldometers.info/img/flags/ci-flag.gif,-35.675147,-71.542969
+32,Zambia,"18,383,955",25,"743,390",18,45 %,https://www.worldometers.info/img/flags/za-flag.gif,-13.133897,27.849332
+33,Ecuador,"17,643,054",71,"248,360",28,63 %,https://www.worldometers.info/img/flags/ec-flag.gif,-1.831239,-78.183406
+34,Netherlands,"17,134,872",508,"33,720",43,92 %,https://www.worldometers.info/img/flags/nl-flag.gif,52.132633,5.291266
+35,Cambodia,"16,718,965",95,"176,520",26,24 %,https://www.worldometers.info/img/flags/cb-flag.gif,12.565679,104.990963
+36,Somalia,"15,893,222",25,"627,340",17,47 %,https://www.worldometers.info/img/flags/so-flag.gif,5.152149,46.199616
+37,Guinea,"13,132,795",53,"245,720",18,39 %,https://www.worldometers.info/img/flags/gv-flag.gif,9.945587,-9.696645
+38,Benin,"12,123,200",108,"112,760",19,48 %,https://www.worldometers.info/img/flags/bn-flag.gif,9.30769,2.315834
+39,Tunisia,"11,818,619",76,"155,360",33,70 %,https://www.worldometers.info/img/flags/ts-flag.gif,33.886917,9.537499
+40,Belgium,"11,589,623",383,"30,280",42,98 %,https://www.worldometers.info/img/flags/be-flag.gif,50.503887,4.469936
+41,Cuba,"11,326,616",106,"106,440",42,78 %,https://www.worldometers.info/img/flags/cu-flag.gif,21.521757,-77.781167
+42,Dominican Republic,"10,847,910",225,"48,320",28,85 %,https://www.worldometers.info/img/flags/dr-flag.gif,18.735693,-70.162651
+43,Greece,"10,423,054",81,"128,900",46,85 %,https://www.worldometers.info/img/flags/gr-flag.gif,39.074208,21.824312
+44,Portugal,"10,196,709",111,"91,590",46,66 %,https://www.worldometers.info/img/flags/po-flag.gif,39.399872,-8.224454
+45,Sweden,"10,099,265",25,"410,340",41,88 %,https://www.worldometers.info/img/flags/sw-flag.gif,60.128161,18.643501
+46,United Arab Emirates,"9,890,402",118,"83,600",33,86 %,https://www.worldometers.info/img/flags/ae-flag.gif,23.424076,53.847818
+47,Tajikistan,"9,537,645",68,"139,960",22,27 %,https://www.worldometers.info/img/flags/ti-flag.gif,38.861034,71.276093
+48,Austria,"9,006,398",109,"82,409",43,57 %,https://www.worldometers.info/img/flags/au-flag.gif,47.516231,14.550072
+49,Serbia,"8,737,371",100,"87,460",42,56 %,https://www.worldometers.info/img/flags/ri-flag.gif,44.016521,21.005859
+50,Switzerland,"8,654,622",219,"39,516",43,74 %,https://www.worldometers.info/img/flags/sz-flag.gif,46.818188,8.227512
+51,Sierra Leone,"7,976,983",111,"72,180",19,43 %,https://www.worldometers.info/img/flags/sl-flag.gif,8.460555,-11.779889
+52,Laos,"7,275,560",32,"230,800",24,36 %,https://www.worldometers.info/img/flags/la-flag.gif,19.85627,102.495496
+53,Bulgaria,"6,948,445",64,"108,560",45,76 %,https://www.worldometers.info/img/flags/bu-flag.gif,42.733883,25.48583
+54,Lebanon,"6,825,445",667,"10,230",30,78 %,https://www.worldometers.info/img/flags/le-flag.gif,33.854721,35.862285
+55,Kyrgyzstan,"6,524,195",34,"191,800",26,36 %,https://www.worldometers.info/img/flags/kg-flag.gif,41.20438,74.766098
+56,Turkmenistan,"6,031,200",13,"469,930",27,53 %,https://www.worldometers.info/img/flags/tx-flag.gif,38.969719,59.556278
+57,Denmark,"5,792,202",137,"42,430",42,88 %,https://www.worldometers.info/img/flags/da-flag.gif,56.26392,9.501785
+58,Congo,"5,518,087",16,"341,500",19,70 %,https://www.worldometers.info/img/flags/cg-flag.gif,,
+59,Norway,"5,421,241",15,"365,268",40,83 %,https://www.worldometers.info/img/flags/no-flag.gif,60.472024,8.468946
+60,State of Palestine,"5,101,414",847,"6,020",21,80 %,https://www.worldometers.info/img/flags/palestine-flag.gif,,
+61,Liberia,"5,057,681",53,"96,320",19,53 %,https://www.worldometers.info/img/flags/li-flag.gif,6.428055,-9.429499
+62,Central African Republic,"4,829,767",8,"622,980",18,43 %,,6.611111,20.939444
+63,Mauritania,"4,649,658",5,"1,030,700",20,57 %,https://www.worldometers.info/img/flags/mr-flag.gif,21.00789,-10.940835
+64,Kuwait,"4,270,571",240,"17,820",37,N.A.,https://www.worldometers.info/img/flags/ku-flag.gif,29.31166,47.481766
+65,Moldova,"4,033,963",123,"32,850",38,43 %,https://www.worldometers.info/img/flags/md-flag.gif,47.411631,28.369885
+66,Eritrea,"3,546,421",35,"101,000",19,63 %,https://www.worldometers.info/img/flags/er-flag.gif,15.179384,39.782334
+67,Bosnia and Herzegovina,"3,280,819",64,"51,000",43,52 %,https://www.worldometers.info/img/flags/bk-flag.gif,43.915886,17.679076
+68,Armenia,"2,963,243",104,"28,470",35,63 %,https://www.worldometers.info/img/flags/am-flag.gif,40.069099,45.038189
+69,Qatar,"2,881,053",248,"11,610",32,96 %,https://www.worldometers.info/img/flags/qa-flag.gif,25.354826,51.183884
+70,Puerto Rico,"2,860,853",323,"8,870",44,N.A.,,18.220833,-66.590149
+71,Namibia,"2,540,905",3,"823,290",22,55 %,https://www.worldometers.info/img/flags/wa-flag.gif,-22.95764,18.49041
+72,Botswana,"2,351,627",4,"566,730",24,73 %,https://www.worldometers.info/img/flags/bc-flag.gif,-22.328474,24.684866
+73,Lesotho,"2,142,249",71,"30,360",24,31 %,https://www.worldometers.info/img/flags/lt-flag.gif,-29.609988,28.233608
+74,Slovenia,"2,078,938",103,"20,140",45,55 %,https://www.worldometers.info/img/flags/si-flag.gif,46.151241,14.995463
+75,Latvia,"1,886,198",30,"62,200",44,69 %,https://www.worldometers.info/img/flags/lg-flag.gif,56.879635,24.603189
+76,Equatorial Guinea,"1,402,985",50,"28,050",22,73 %,https://www.worldometers.info/img/flags/ek-flag.gif,1.650801,10.267895
+77,Estonia,"1,326,535",31,"42,390",42,68 %,https://www.worldometers.info/img/flags/en-flag.gif,58.595272,25.013607
+78,Mauritius,"1,271,768",626,"2,030",37,41 %,https://www.worldometers.info/img/flags/mp-flag.gif,-20.348404,57.552152
+79,Eswatini,"1,160,164",67,"17,200",21,30 %,https://www.worldometers.info/img/flags/wz-flag.gif,,
+80,Fiji,"896,445",49,"18,270",28,59 %,https://www.worldometers.info/img/flags/fj-flag.gif,-16.578193,179.414413
+81,Comoros,"869,601",467,"1,861",20,29 %,https://www.worldometers.info/img/flags/cn-flag.gif,-11.875001,43.872219
+82,Bhutan,"771,608",20,"38,117",28,46 %,https://www.worldometers.info/img/flags/bt-flag.gif,27.514162,90.433601
+83,Macao,"649,335","21,645",30,39,N.A.,,,
+84,Luxembourg,"625,978",242,"2,590",40,88 %,https://www.worldometers.info/img/flags/lu-flag.gif,49.815273,6.129583
+85,Suriname,"586,632",4,"156,000",29,65 %,https://www.worldometers.info/img/flags/ns-flag.gif,3.919305,-56.027783
+86,Micronesia,"548,914",784,700,27,68 %,https://www.worldometers.info/img/flags/fm-flag.gif,7.425554,150.550812
+87,Malta,"441,543","1,380",320,43,93 %,https://www.worldometers.info/img/flags/mt-flag.gif,35.937496,14.375416
+88,Guadeloupe,"400,124",237,"1,690",44,N.A.,,16.995971,-62.067641
+89,Bahamas,"393,244",39,"10,010",32,86 %,https://www.worldometers.info/img/flags/bf-flag.gif,25.03428,-77.39628
+90,Iceland,"341,243",3,"100,250",37,94 %,https://www.worldometers.info/img/flags/ic-flag.gif,64.963051,-19.020835
+91,French Guiana,"298,682",4,"82,200",25,87 %,,3.933889,-53.125782
+92,New Caledonia,"285,498",16,"18,280",34,72 %,,-20.904305,165.618042
+93,Mayotte,"272,815",728,375,20,46 %,,-12.8275,45.166244
+94,Samoa,"198,414",70,"2,830",22,18 %,https://www.worldometers.info/img/flags/ws-flag.gif,-13.759029,-172.104629
+95,Channel Islands,"173,863",915,190,43,30 %,,,
+96,Curaçao,"164,093",370,444,42,89 %,,,
+97,Grenada,"112,523",331,340,32,35 %,https://www.worldometers.info/img/flags/gj-flag.gif,12.262776,-61.604171
+98,Aruba,"106,766",593,180,41,44 %,,12.52111,-69.968338
+99,U.S. Virgin Islands,"104,425",298,350,43,96 %,,18.335765,-64.896335
+100,Antigua and Barbuda,"97,929",223,440,34,26 %,https://www.worldometers.info/img/flags/ac-flag.gif,17.060816,-61.796428
+101,Andorra,"77,265",164,470,N.A.,88 %,https://www.worldometers.info/img/flags/an-flag.gif,42.546245,1.601554
+102,Cayman Islands,"65,722",274,240,N.A.,97 %,,19.513469,-80.566956
+103,Marshall Islands,"59,190",329,180,N.A.,70 %,https://www.worldometers.info/img/flags/rm-flag.gif,7.131474,171.184478
+104,Greenland,"56,770",0,"410,450",N.A.,87 %,,71.706936,-42.604303
+105,Saint Kitts & Nevis,"53,199",205,260,N.A.,33 %,,,
+106,Sint Maarten,"42,876","1,261",34,N.A.,96 %,,,
+107,Turks and Caicos,"38,717",41,950,N.A.,89 %,,,
+108,Liechtenstein,"38,128",238,160,N.A.,15 %,https://www.worldometers.info/img/flags/ls-flag.gif,47.166,9.555373
+109,Gibraltar,"33,691","3,369",10,N.A.,N.A.,,36.137741,-5.345374
+110,Caribbean Netherlands,"26,223",80,328,N.A.,75 %,,,
+111,Cook Islands,"17,564",73,240,N.A.,75 %,,-21.236736,-159.777671
+112,Tuvalu,"11,792",393,30,N.A.,62 %,https://www.worldometers.info/img/flags/tv-flag.gif,-7.109535,177.64933
+113,Nauru,"10,824",541,20,N.A.,N.A.,https://www.worldometers.info/img/flags/nr-flag.gif,-0.522778,166.931503
+114,Saint Helena,"6,077",16,390,N.A.,27 %,,-24.143474,-10.030696
+115,Montserrat,"4,992",50,100,N.A.,10 %,,16.742498,-62.187366
+116,Niue,"1,626",6,260,N.A.,46 %,,-19.054445,-169.867233
+117,Holy See,801,"2,003",0,N.A.,N.A.,https://www.worldometers.info/img/flags/vt-flag.gif,,
+118,India,"1,380,004,385",464,"2,973,190",28,35 %,https://www.worldometers.info/img/flags/in-flag.gif,20.593684,78.96288
+119,Indonesia,"273,523,615",151,"1,811,570",30,56 %,https://www.worldometers.info/img/flags/id-flag.gif,-0.789275,113.921327
+120,Brazil,"212,559,417",25,"8,358,140",33,88 %,https://www.worldometers.info/img/flags/br-flag.gif,-14.235004,-51.92528
+121,Bangladesh,"164,689,383","1,265","130,170",28,39 %,https://www.worldometers.info/img/flags/bg-flag.gif,23.684994,90.356331
+122,Mexico,"128,932,753",66,"1,943,950",29,84 %,https://www.worldometers.info/img/flags/mx-flag.gif,23.634501,-102.552784
+123,Ethiopia,"114,963,588",115,"1,000,000",19,21 %,https://www.worldometers.info/img/flags/et-flag.gif,9.145,40.489673
+124,Egypt,"102,334,404",103,"995,450",25,43 %,https://www.worldometers.info/img/flags/eg-flag.gif,26.820553,30.802498
+125,DR Congo,"89,561,403",40,"2,267,050",17,46 %,https://www.worldometers.info/img/flags/congo-flag.gif,,
+126,Iran,"83,992,949",52,"1,628,550",32,76 %,https://www.worldometers.info/img/flags/ir-flag.gif,32.427908,53.688046
+127,Thailand,"69,799,978",137,"510,890",40,51 %,https://www.worldometers.info/img/flags/th-flag.gif,15.870032,100.992541
+128,France,"65,273,511",119,"547,557",42,82 %,https://www.worldometers.info/img/flags/fr-flag.gif,46.227638,2.213749
+129,Tanzania,"59,734,218",67,"885,800",18,37 %,https://www.worldometers.info/img/flags/tz-flag.gif,-6.369028,34.888822
+130,Myanmar,"54,409,800",83,"653,290",29,31 %,https://www.worldometers.info/img/flags/bm-flag.gif,,
+131,South Korea,"51,269,185",527,"97,230",44,82 %,https://www.worldometers.info/img/flags/ks-flag.gif,35.907757,127.766922
+132,Spain,"46,754,778",94,"498,800",45,80 %,https://www.worldometers.info/img/flags/sp-flag.gif,40.463667,-3.74922
+133,Argentina,"45,195,774",17,"2,736,690",32,93 %,https://www.worldometers.info/img/flags/ar-flag.gif,-38.416097,-63.616672
+134,Sudan,"43,849,260",25,"1,765,048",20,35 %,https://www.worldometers.info/img/flags/su-flag.gif,12.862807,30.217636
+135,Iraq,"40,222,493",93,"434,320",21,73 %,https://www.worldometers.info/img/flags/iz-flag.gif,33.223191,43.679291
+136,Poland,"37,846,611",124,"306,230",42,60 %,https://www.worldometers.info/img/flags/pl-flag.gif,51.919438,19.145136
+137,Morocco,"36,910,560",83,"446,300",30,64 %,https://www.worldometers.info/img/flags/mo-flag.gif,31.791702,-7.09262
+138,Uzbekistan,"33,469,203",79,"425,400",28,50 %,https://www.worldometers.info/img/flags/uz-flag.gif,41.377491,64.585262
+139,Angola,"32,866,272",26,"1,246,700",17,67 %,https://www.worldometers.info/img/flags/ao-flag.gif,-11.202692,17.873887
+140,Mozambique,"31,255,435",40,"786,380",18,38 %,https://www.worldometers.info/img/flags/mz-flag.gif,-18.665695,35.529562
+141,Yemen,"29,825,964",56,"527,970",20,38 %,https://www.worldometers.info/img/flags/ym-flag.gif,15.552727,48.516388
+142,Venezuela,"28,435,940",32,"882,050",30,N.A.,https://www.worldometers.info/img/flags/ve-flag.gif,6.42375,-66.58973
+143,Cameroon,"26,545,863",56,"472,710",19,56 %,https://www.worldometers.info/img/flags/cm-flag.gif,7.369722,12.354722
+144,North Korea,"25,778,816",214,"120,410",35,63 %,,40.339852,127.510093
+145,Niger,"24,206,644",19,"1,266,700",15,17 %,https://www.worldometers.info/img/flags/ng-flag.gif,17.607789,8.081666
+146,Sri Lanka,"21,413,249",341,"62,710",34,18 %,https://www.worldometers.info/img/flags/ce-flag.gif,7.873054,80.771797
+147,Mali,"20,250,833",17,"1,220,190",16,44 %,https://www.worldometers.info/img/flags/ml-flag.gif,17.570692,-3.996166
+148,Malawi,"19,129,952",203,"94,280",18,18 %,https://www.worldometers.info/img/flags/mi-flag.gif,-13.254308,34.301525
+149,Kazakhstan,"18,776,707",7,"2,699,700",31,58 %,https://www.worldometers.info/img/flags/kz-flag.gif,48.019573,66.923684
+150,Guatemala,"17,915,568",167,"107,160",23,52 %,https://www.worldometers.info/img/flags/gt-flag.gif,15.783471,-90.230759
+151,Syria,"17,500,658",95,"183,630",26,60 %,https://www.worldometers.info/img/flags/sy-flag.gif,34.802075,38.996815
+152,Senegal,"16,743,927",87,"192,530",19,49 %,https://www.worldometers.info/img/flags/sg-flag.gif,14.497401,-14.452362
+153,Chad,"16,425,864",13,"1,259,200",17,23 %,https://www.worldometers.info/img/flags/cd-flag.gif,15.454166,18.732207
+154,Zimbabwe,"14,862,924",38,"386,850",19,38 %,https://www.worldometers.info/img/flags/zi-flag.gif,-19.015438,29.154857
+155,Rwanda,"12,952,218",525,"24,670",20,18 %,https://www.worldometers.info/img/flags/rw-flag.gif,-1.940278,29.873888
+156,Burundi,"11,890,784",463,"25,680",17,14 %,https://www.worldometers.info/img/flags/by-flag.gif,-3.373056,29.918886
+157,Bolivia,"11,673,021",11,"1,083,300",26,69 %,https://www.worldometers.info/img/flags/bl-flag.gif,-16.290154,-63.588653
+158,Haiti,"11,402,528",414,"27,560",24,57 %,https://www.worldometers.info/img/flags/ha-flag.gif,18.971187,-72.285215
+159,South Sudan,"11,193,725",18,"610,952",19,25 %,https://www.worldometers.info/img/flags/od-flag.gif,,
+160,Czech Republic (Czechia),"10,708,981",139,"77,240",43,74 %,https://www.worldometers.info/img/flags/ez-flag.gif,,
+161,Jordan,"10,203,134",115,"88,780",24,91 %,https://www.worldometers.info/img/flags/jo-flag.gif,30.585164,36.238414
+162,Azerbaijan,"10,139,177",123,"82,658",32,56 %,https://www.worldometers.info/img/flags/aj-flag.gif,40.143105,47.576927
+163,Honduras,"9,904,607",89,"111,890",24,57 %,https://www.worldometers.info/img/flags/ho-flag.gif,15.199999,-86.241905
+164,Hungary,"9,660,351",107,"90,530",43,72 %,https://www.worldometers.info/img/flags/hu-flag.gif,47.162494,19.503304
+165,Belarus,"9,449,323",47,"202,910",40,79 %,https://www.worldometers.info/img/flags/bo-flag.gif,53.709807,27.953389
+166,Papua New Guinea,"8,947,024",20,"452,860",22,13 %,https://www.worldometers.info/img/flags/pp-flag.gif,-6.314993,143.95555
+167,Israel,"8,655,535",400,"21,640",30,93 %,https://www.worldometers.info/img/flags/is-flag.gif,31.046051,34.851612
+168,Togo,"8,278,724",152,"54,390",19,43 %,https://www.worldometers.info/img/flags/to-flag.gif,8.619543,0.824782
+169,Hong Kong,"7,496,981","7,140","1,050",45,N.A.,,22.396428,114.109497
+170,Paraguay,"7,132,538",18,"397,300",26,62 %,https://www.worldometers.info/img/flags/pa-flag.gif,-23.442503,-58.443832
+171,Libya,"6,871,292",4,"1,759,540",29,78 %,https://www.worldometers.info/img/flags/ly-flag.gif,26.3351,17.228331
+172,Nicaragua,"6,624,554",55,"120,340",26,57 %,https://www.worldometers.info/img/flags/nu-flag.gif,12.865416,-85.207229
+173,El Salvador,"6,486,205",313,"20,720",28,73 %,https://www.worldometers.info/img/flags/es-flag.gif,13.794185,-88.89653
+174,Singapore,"5,850,342","8,358",700,42,N.A.,https://www.worldometers.info/img/flags/sn-flag.gif,1.352083,103.819836
+175,Finland,"5,540,720",18,"303,890",43,86 %,https://www.worldometers.info/img/flags/fi-flag.gif,61.92411,25.748151
+176,Slovakia,"5,459,642",114,"48,088",41,54 %,https://www.worldometers.info/img/flags/lo-flag.gif,48.669026,19.699024
+177,Oman,"5,106,626",16,"309,500",31,87 %,https://www.worldometers.info/img/flags/mu-flag.gif,21.512583,55.923255
+178,Costa Rica,"5,094,118",100,"51,060",33,80 %,https://www.worldometers.info/img/flags/cs-flag.gif,9.748917,-83.753428
+179,Ireland,"4,937,786",72,"68,890",38,63 %,https://www.worldometers.info/img/flags/ei-flag.gif,53.41291,-8.24389
+180,New Zealand,"4,822,233",18,"263,310",38,87 %,https://www.worldometers.info/img/flags/nz-flag.gif,-40.900557,174.885971
+181,Panama,"4,314,767",58,"74,340",30,68 %,https://www.worldometers.info/img/flags/pm-flag.gif,8.537981,-80.782127
+182,Croatia,"4,105,267",73,"55,960",44,58 %,https://www.worldometers.info/img/flags/hr-flag.gif,45.1,15.2
+183,Georgia,"3,989,167",57,"69,490",38,58 %,https://www.worldometers.info/img/flags/gg-flag.gif,42.315407,43.356892
+184,Uruguay,"3,473,730",20,"175,020",36,96 %,https://www.worldometers.info/img/flags/uy-flag.gif,-32.522779,-55.765835
+185,Mongolia,"3,278,290",2,"1,553,560",28,67 %,https://www.worldometers.info/img/flags/mg-flag.gif,46.862496,103.846656
+186,Jamaica,"2,961,167",273,"10,830",31,55 %,https://www.worldometers.info/img/flags/jm-flag.gif,18.109581,-77.297508
+187,Albania,"2,877,797",105,"27,400",36,63 %,https://www.worldometers.info/img/flags/al-flag.gif,41.153332,20.168331
+188,Lithuania,"2,722,289",43,"62,674",45,71 %,https://www.worldometers.info/img/flags/lh-flag.gif,55.169438,23.881275
+189,Gambia,"2,416,668",239,"10,120",18,59 %,https://www.worldometers.info/img/flags/ga-flag.gif,13.443182,-15.310139
+190,Gabon,"2,225,734",9,"257,670",23,87 %,https://www.worldometers.info/img/flags/gb-flag.gif,-0.803689,11.609444
+191,North Macedonia,"2,083,374",83,"25,220",39,59 %,https://www.worldometers.info/img/flags/mk-flag.gif,,
+192,Guinea-Bissau,"1,968,001",70,"28,120",19,45 %,https://www.worldometers.info/img/flags/pu-flag.gif,11.803749,-15.180413
+193,Bahrain,"1,701,575","2,239",760,32,89 %,https://www.worldometers.info/img/flags/ba-flag.gif,25.930414,50.637772
+194,Trinidad and Tobago,"1,399,488",273,"5,130",36,52 %,https://www.worldometers.info/img/flags/td-flag.gif,10.691803,-61.222503
+195,Timor-Leste,"1,318,445",89,"14,870",21,33 %,https://www.worldometers.info/img/flags/tt-flag.gif,-8.874217,125.727539
+196,Cyprus,"1,207,359",131,"9,240",37,67 %,https://www.worldometers.info/img/flags/cy-flag.gif,35.126413,33.429859
+197,Djibouti,"988,000",43,"23,180",27,79 %,https://www.worldometers.info/img/flags/dj-flag.gif,11.825138,42.590275
+198,Réunion,"895,312",358,"2,500",36,100 %,,-21.115141,55.536384
+199,Guyana,"786,552",4,"196,850",27,27 %,https://www.worldometers.info/img/flags/gy-flag.gif,4.860416,-58.93018
+200,Solomon Islands,"686,884",25,"27,990",20,23 %,https://www.worldometers.info/img/flags/bp-flag.gif,-9.64571,160.156194
+201,Montenegro,"628,066",47,"13,450",39,68 %,https://www.worldometers.info/img/flags/mj-flag.gif,42.708678,19.37439
+202,Western Sahara,"597,339",2,"266,000",28,87 %,,24.215527,-12.885834
+203,Cabo Verde,"555,987",138,"4,030",28,68 %,https://www.worldometers.info/img/flags/cv-flag.gif,,
+204,Maldives,"540,544","1,802",300,30,35 %,https://www.worldometers.info/img/flags/mv-flag.gif,3.202778,73.22068
+205,Brunei ,"437,479",83,"5,270",32,80 %,https://www.worldometers.info/img/flags/bx-flag.gif,,
+206,Belize,"397,628",17,"22,810",25,46 %,https://www.worldometers.info/img/flags/bh-flag.gif,17.189877,-88.49765
+207,Martinique,"375,265",354,"1,060",47,92 %,,14.641528,-61.024174
+208,Vanuatu,"307,145",25,"12,190",21,24 %,https://www.worldometers.info/img/flags/nh-flag.gif,-15.376706,166.959158
+209,Barbados,"287,375",668,430,40,31 %,https://www.worldometers.info/img/flags/bb-flag.gif,13.193887,-59.543198
+210,French Polynesia,"280,908",77,"3,660",34,64 %,,-17.679742,-149.406843
+211,Sao Tome & Principe,"219,159",228,960,19,74 %,,,
+212,Saint Lucia,"183,627",301,610,34,19 %,https://www.worldometers.info/img/flags/st-flag.gif,13.909444,-60.978893
+213,Guam,"168,775",313,540,31,95 %,,13.444304,144.793731
+214,Kiribati,"119,449",147,810,23,57 %,https://www.worldometers.info/img/flags/kr-flag.gif,-3.370417,-168.734039
+215,St. Vincent & Grenadines,"110,940",284,390,33,53 %,https://www.worldometers.info/img/flags/vc-flag.gif,,
+216,Tonga,"105,695",147,720,22,24 %,https://www.worldometers.info/img/flags/tn-flag.gif,-21.178986,-175.198242
+217,Seychelles,"98,347",214,460,34,56 %,https://www.worldometers.info/img/flags/se-flag.gif,-4.679574,55.491977
+218,Isle of Man,"85,033",149,570,N.A.,53 %,,54.236107,-4.548056
+219,Dominica,"71,986",96,750,N.A.,74 %,https://www.worldometers.info/img/flags/do-flag.gif,15.414999,-61.370976
+220,Bermuda,"62,278","1,246",50,N.A.,97 %,,32.321384,-64.75737
+221,Northern Mariana Islands,"57,559",125,460,N.A.,88 %,,17.33083,145.38469
+222,American Samoa,"55,191",276,200,N.A.,88 %,,-14.270972,-170.132217
+223,Faeroe Islands,"48,863",35,"1,396",N.A.,43 %,,,
+224,Monaco,"39,242","26,337",1,N.A.,N.A.,https://www.worldometers.info/img/flags/mn-flag.gif,43.750298,7.412841
+225,Saint Martin,"38,666",730,53,N.A.,0 %,,,
+226,San Marino,"33,931",566,60,N.A.,97 %,https://www.worldometers.info/img/flags/sm-flag.gif,43.94236,12.457777
+227,British Virgin Islands,"30,231",202,150,N.A.,52 %,,18.420695,-64.639968
+228,Palau,"18,094",39,460,N.A.,N.A.,https://www.worldometers.info/img/flags/ps-flag.gif,7.51498,134.58252
+229,Anguilla,"15,003",167,90,N.A.,N.A.,,18.220554,-63.068615
+230,Wallis & Futuna,"11,239",80,140,N.A.,0 %,,,
+231,Saint Barthelemy,"9,877",470,21,N.A.,0 %,,,
+232,Saint Pierre & Miquelon,"5,794",25,230,N.A.,100 %,,,
+233,Falkland Islands,"3,480",0,"12,170",N.A.,66 %,,,
+234,Tokelau,"1,357",136,10,N.A.,0 %,,-8.967363,-171.855881
+235,World,7795232630,59.92,130094083,,37.49%,,,
