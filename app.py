@@ -21,9 +21,11 @@ global_population = globalpop
 st.set_page_config(page_title="Climate Change Dashboard", layout="wide")
 
 # Configure Google Generative AI
+##api_key = 'XXX'  # Replace with your actual API key
+#genai.configure(api_key=api_key)
+
 api_key = os.getenv("GENAI_API_KEY")
 genai.configure(api_key=api_key)
-
 
 # Load Lottie animations
 def load_lottie_url(url):
@@ -32,7 +34,6 @@ def load_lottie_url(url):
         return None
     return r.json()
 
-
 lottie_temperature_meter = load_lottie_url("https://lottie.host/c2f23b2b-cc34-485a-b466-d0c0af815828/zPAxPvR17j.json")
 lottie_earth = load_lottie_url("https://lottie.host/7332295c-98ac-4ba6-8ced-51cbf1ebd984/wUgtDvjY8F.json")
 
@@ -40,7 +41,7 @@ lottie_earth = load_lottie_url("https://lottie.host/7332295c-98ac-4ba6-8ced-51cb
 st.title("🌍 Climate Dashboard")
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["CO2 Flux Visualization", "Temperature Dashboard","Population","Summary Page"])
-
+    
 stories_data = {
     'Summary': None,
     'climate_story': None,
@@ -49,7 +50,6 @@ stories_data = {
     'population_story': None
 }
 
-
 def format_number(num):
     if num > 1000000:
         if not num % 1000000:
@@ -57,7 +57,9 @@ def format_number(num):
         return f'{round(num / 1000000, 1)} M'
     return f'{num // 1000} K'
 
+    
 
+            
 if page == "CO2 Flux Visualization":
     # CO2 Flux Visualization Page
     st.write("Explore the effects of CO2 emissions using data from the U.S. Greenhouse Gas Center.")
@@ -132,23 +134,23 @@ if page == "CO2 Flux Visualization":
         location = get_coordinates(region)
         if location is None:
             return
-
+        
         oco2_items = requests.get(f"{STAC_API_URL}/collections/{collection_name_oco2}/items?limit=2").json()["features"]
         rescale_values = {
             "min": oco2_items[0]["assets"]["xco2"]["raster:bands"][0]["histogram"]["min"],
             "max": oco2_items[0]["assets"]["xco2"]["raster:bands"][0]["histogram"]["max"]
         }
-
+        
         oco2_1 = requests.get(
             f"{RASTER_API_URL}/collections/{oco2_items[0]['collection']}/items/{oco2_items[0]['id']}/tilejson.json?"
             f"&assets=xco2&color_formula=gamma+r+1.05&colormap_name=magma&rescale={rescale_values['min']},{rescale_values['max']}"
         ).json()
-
+        
         oco2_2 = requests.get(
             f"{RASTER_API_URL}/collections/{oco2_items[1]['collection']}/items/{oco2_items[1]['id']}/tilejson.json?"
             f"&assets=xco2&color_formula=gamma+r+1.05&colormap_name=magma&rescale={rescale_values['min']},{rescale_values['max']}"
         ).json()
-
+        
         dual_map = DualMap(location=location, zoom_start=6)
 
         folium.TileLayer(
@@ -166,7 +168,7 @@ if page == "CO2 Flux Visualization":
             attr="OCO-2",
             opacity=0.6
         ).add_to(dual_map.m2)
-
+        
         folium.LayerControl(collapsed=False).add_to(dual_map)
         st.components.v1.html(dual_map.get_root().render(), height=600)
 
@@ -221,14 +223,13 @@ if page == "CO2 Flux Visualization":
 elif page == "Temperature Dashboard":
     st.markdown("---")
 
-    # Load temperature data
     df = pd.read_csv("data/climate_change_indicators.csv")
     f = open('countries.geo.json')  
     world_json = json.load(f)
 
     # Data preparation
     year_list = [f"F{i}" for i in range(2002, 2022)]
-    df_melt = pd.melt(df, id_vars=["Country"], value_vars=year_list)
+    df_melt = pd.melt(df, id_vars=["Country", "ISO3"], value_vars=year_list)
     df_melt.rename(columns={"variable": "Year", "value": "Temperature_Change"}, inplace=True)
     df_melt['Year'] = df_melt['Year'].str.replace(r'F', '', regex=True).astype(int)
     df_melt['Temperature_Change'] = pd.to_numeric(df_melt['Temperature_Change'], errors='coerce')
@@ -263,39 +264,26 @@ elif page == "Temperature Dashboard":
 
     st.markdown("---")
 
-    # Load global temperatures for the selected year
-    temperatures = pd.read_csv('data/GlobalLandTemperaturesByCountry.csv')
-    temperatures['dt'] = pd.to_datetime(temperatures['dt'])
-    temperatures['Year'] = temperatures['dt'].dt.year
-
-    # Filter for the selected year and calculate average temperatures by country
-    average_temperatures = temperatures[temperatures['Year'] == selected_year].groupby('Country')['AverageTemperature'].mean().reset_index()
-
-    # Load country codes
-    countryCodes = pd.read_csv('data/country_code.csv')
-    countryCodes.rename(columns={'Country_name': 'Country'}, inplace=True)
-
-    # Merge average temperatures with country codes
-    merged_data = pd.merge(average_temperatures, countryCodes, how='outer', left_on='Country', right_on='Country')
-    merged_data = merged_data.dropna(how='any', axis=0)
+    # Load global temperature data from climate_change_indicators.csv for the selected year
+    average_temperatures = df_melt[df_melt['Year'] == selected_year]
 
     # Plotly Choropleth map to visualize temperatures globally with black background
+    st.markdown(f'#### This displays the average national temperature information for a specific year')
     tempFig = go.Figure(data=go.Choropleth(
-        locations=merged_data['code_3digit'],
-        z=merged_data['AverageTemperature'],
-        text=merged_data['Country'],
+        locations=average_temperatures['ISO3'],  # Use the ISO3 country code from the new dataset
+        z=average_temperatures['Temperature_Change'],
+        text=average_temperatures['Country'],
         colorscale='YLORRD',
         autocolorscale=False,
         marker_line_color='darkgray',
         marker_line_width=0.5,
         colorbar_ticksuffix='°C',
-        colorbar_title='Average Temperature',
+        colorbar_title='Temperature Change (°C)',
     ))
 
     # Set black background for the map
-    st.markdown(f'#### This displays the average national temperature information for a specific year')
     tempFig.update_layout(
-        title_text=f'Average Temperature around the world for {selected_year}',
+        title_text=f'Average Temperature Change around the world for {selected_year}',
         geo=dict(
             showframe=False,
             showcoastlines=False,
@@ -323,7 +311,7 @@ elif page == "Temperature Dashboard":
 
     if not df_temp_selected_year.empty:
         st.markdown(f'#### Global Temperature Anomalies for {selected_year}')
-
+        
         # Melt temperature data for visualization
         df_temp_melted = df_temp_selected_year.melt(id_vars=['year'], 
                                                     value_vars=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
@@ -335,9 +323,8 @@ elif page == "Temperature Dashboard":
                             title=f'Monthly Global Temperature Anomalies for {selected_year}', 
                             labels={'Anomaly': 'Temperature Anomaly (°C)'},
                             markers=True)
-        st.plotly_chart(temp_chart, use_container_width=True)
+        st.plotly_chart(temp_chart, use_container_width=True)    
 
-    # Dynamic storytelling for Temperature Dashboard
     def generate_temperature_story(selected_year, max_temp_country, min_temp_country):
         story_prompt = (
             f"In {selected_year}, the country with the maximum temperature change was {max_temp_country}, "
@@ -351,17 +338,17 @@ elif page == "Temperature Dashboard":
             f"This highlights the importance of understanding our climate data, as it tells a story that demands action."
             f"Generate an engaging story based on this temperature data and its connection to climate change."
         )
-
+        
         response = genai.GenerativeModel('gemini-pro').generate_content(story_prompt)
         stories_data['temperature_story'] = response.text
 
         return response.text
 
-        # Move the Generate Story button to the sidebar
     if st.sidebar.button("Generate Climate Change Story"):
         story_content = generate_temperature_story(selected_year, max_temp['Country'], min_temp['Country'])
         st.markdown("### Climate Change Story")
         st.write(story_content)
+
 
 elif page == "Population":
     # Load population data
@@ -376,7 +363,7 @@ elif page == "Population":
     with st.sidebar:
         year_list = sorted(df_reshaped.year.unique())
         selected_year = st.selectbox('Select a year', year_list)
-
+        
         # Filter population data based on selected year
         df_selected_year = df_reshaped[df_reshaped.year == selected_year]
         df_selected_year_sorted = df_selected_year.sort_values(by="population", ascending=False)
@@ -436,7 +423,7 @@ elif page == "Population":
             f"Generate an engaging story based on this population data and its connection to climate change."
         )
         stories_data['population_story'] = story.text
-
+    
         return story.text
 
     # Include story generation in the Population Dashboard
@@ -447,16 +434,16 @@ elif page == "Population":
             st.write(story_content)
         else:
             st.warning("Please select a year to generate a story.")
-
+            
 elif page == "Summary Page":
     st.write("This will show the overall average values ​​related to global warming for all countries from 2002 to 2022.")
-
+    st.markdown("> It will take a few seconds to load the data here. Please be sure to wait for the map to be generated, and click on the country after the map is generated. The next step is to wait for the story to be generated. In addition, the data here will be based on the data and stories loaded in other previous pages summarized into this page")
     launch_data, countries = climate_data.launchPage()
     clicked_country = my_component("leaf", launch_data)
-
+    
     if clicked_country:
         st.markdown("Clicked country \"%s\" !" % clicked_country)
-
+        
         # Get data for the clicked country
         country_data = climate_data.get_country_map(clicked_country)
         climate_data.get_scatter(clicked_country)
@@ -472,35 +459,35 @@ elif page == "Summary Page":
             st.write("Average Temperature Change: %.3f" % avg_temp_change)
             st.write("Average CO2 Emission: %.3f" % avg_co2_emission)
             st.write("Population: %s" % population)
-
+                     
             prompt = (
                 f"Over the decades, a wealth of data regarding climate change has been produced by scientists, governments, academic institutions, and private companies. "
                 f"As climate research advances and the climate crisis escalates, the volume of available data continues to grow. "
                 f"However, accessing and understanding this data are two distinct challenges. While scientific information is crucial for climate action decision-making, it is engaging narratives that inspire people to take action. "
                 f"Carefully crafted stories based on credible scientific data are essential for making informed decisions regarding climate change.\n\n"
-
+                
                 f"Now, let’s focus on the specific situation in {country}. The data reveals:\n"
                 f"- Average Temperature Change: {avg_temp_change}°C\n"
                 f"- Average CO2 Emissions: {avg_co2_emission} million tons\n"
                 f"- Population: {population}\n\n"
-
+                
                 f"In addition, consider these insights from relevant data:\n"
                 f"- Climate Story: {stories_data['climate_story']}\n"
                 f"- CO2 Flux Story: {stories_data['co2_story']}\n"
                 f"- Temperature Story: {stories_data['temperature_story']}\n"
                 f"- Population Story: {stories_data['population_story']}\n\n"
-
+                
                 f"Using this information, craft a compelling narrative about climate change that educates and engages the general public. "
                 f"Your story should highlight the implications of the data, addressing the urgency of climate action while making it relatable and interesting. "
                 f"Consider incorporating examples of how climate change impacts daily life and the future of the planet. "
                 f"Utilize visualizations or compelling imagery where appropriate to enhance the narrative.\n\n"
-
+                
                 f"Focus on specific climate phenomena such as rising temperatures, sea-level rise, or increasing extreme weather events, and encourage your audience to see the importance of their role in addressing these challenges. "
                 f"Your goal is to create a narrative that not only informs but also inspires action against climate change."
             )
-
+                                
             model = genai.GenerativeModel('gemini-pro')
             response = model.generate_content(prompt)
 
             st.subheader("Comprehensive Climate Story")
-            st.write(response.text)
+            st.write(response.text)            
