@@ -81,10 +81,6 @@ https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv
 
 > GLOBAL Land-Ocean Temperature Index in 0.01 degrees Celsius   base period: 1951-1980
 
-https://data.giss.nasa.gov/gistemp/tabledata_v3/SH.Ts+dSST.csv
-
-> The GISS Surface Temperature Analysis (GISTEMP) is an estimate of global surface temperature change.
-
 https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.txt
 
 > CO2 data
