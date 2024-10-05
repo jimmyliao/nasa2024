@@ -1,4 +1,4 @@
-## team
+## TEAM
 
 https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/404-not-found1/?tab=details
 
