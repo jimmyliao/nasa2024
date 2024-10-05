@@ -46,7 +46,7 @@ Yuijuhn Ting: Responsible for page design and integrating all functions into the
 + https://gwis.jrc.ec.europa.eu/apps/country.profile/downloads  
 
 
-GeoJson: For the map, we used Leaflet and geoJson files for the boundaries of each country. You can find the full geoJson file here https://opendata.arcgis.com/datasets/2b93b06dc0dc4e809d3c8db5cb96ba69_0.geojson. 
+GeoJson: For the map, we used Leaflet and geoJson files for the boundaries of each country. You can find the full geoJson file here https://opendata.arcgis.com/datasets/2b93b06dc0dc4e809d3c8db5cb96ba69_0.geojson
 
 Kaggle: 
   + https://www.kaggle.com/code/andrewmahandrew/temperature-map/notebook
