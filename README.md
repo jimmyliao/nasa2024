@@ -43,7 +43,6 @@ Yuijuhn Ting: Responsible for page design and integrating all functions into the
 + https://ucdp.uu.se/downloads/index.html#ged_global
 + https://ucdp.uu.se/downloads/
 + https://gwis.jrc.ec.europa.eu/apps/country.profile/downloads
-+ https://gwis.jrc.ec.europa.eu/apps/country.profile/downloads  
 
 
 GeoJson: For the map, we used Leaflet and geoJson files for the boundaries of each country. You can find the full geoJson file here https://opendata.arcgis.com/datasets/2b93b06dc0dc4e809d3c8db5cb96ba69_0.geojson
