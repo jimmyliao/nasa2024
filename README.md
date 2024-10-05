@@ -43,6 +43,8 @@ Yuijuhn Ting: Responsible for page design and integrating all functions into the
 + https://ucdp.uu.se/downloads/index.html#ged_global
 + https://ucdp.uu.se/downloads/
 + https://gwis.jrc.ec.europa.eu/apps/country.profile/downloads
++ https://ourworldindata.org/grapher/annual-co2-emissions-per-country
+
 
 
 GeoJson: For the map, we used Leaflet and geoJson files for the boundaries of each country. You can find the full geoJson file here https://opendata.arcgis.com/datasets/2b93b06dc0dc4e809d3c8db5cb96ba69_0.geojson
@@ -57,8 +59,6 @@ Github:
   + https://github.com/alanjones2/st-choropleth/tree/main/data
   + https://github.com/sudikshanavik/CS661A_Big_Data/tree/main/dataset
   + https://github.com/datasets/population/blob/main/data/population.csv
-  + https://gwis.jrc.ec.europa.eu/apps/country.profile/downloads 
-  + https://ourworldindata.org/grapher/annual-co2-emissions-per-country
 
 
 ### NASA Dataset
