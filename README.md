@@ -1,3 +1,16 @@
+## team
+
+https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/404-not-found1/?tab=details
+
+## Competition question
+
+https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/
+
+https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/tell-us-a-climate-story/?tab=details
+
+---
+
+
 ## Project division of labor
 
 Kay: Responsible for capturing data sets and processing data sets + processing chart data
@@ -37,6 +50,13 @@ Yuijuhn Ting: Responsible for page design and integrating all functions into the
   + https://www.kaggle.com/code/andrewmahandrew/temperature-map/notebook
   + https://www.kaggle.com/code/voraseth/climate-change-indicators-eda-010/input
   + https://www.kaggle.com/datasets/danielvalyano/country-coord
+    
+**6. Github:**
+  + https://github.com/alanjones2/st-choropleth/tree/main/data
+  + https://github.com/sudikshanavik/CS661A_Big_Data/tree/main/dataset
+  + https://github.com/datasets/population/blob/main/data/population.csv
+  + https://github.com/IvyQwinn/GlobalTemperatureAnalysis/tree/main
+    
 
 ### NASA Dataset
 
