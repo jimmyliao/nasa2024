@@ -139,6 +139,7 @@ base="dark"
 primaryColor="#fff200"
 
 font="monospace"
+```
 
 ### Demo
 
