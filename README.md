@@ -1,14 +1,10 @@
++ DEMO
+    + https://nasa2024-taiwan.streamlit.app/
+
 ## team
 
 https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/404-not-found1/?tab=details
 
-## Competition question
-
-https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/
-
-https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/tell-us-a-climate-story/?tab=details
-
----
 
 ## Project division of labor
 
@@ -22,6 +18,24 @@ Muhammad Shaharyar Sarwar: Responsible for program efficiency
 
 Yuijuhn Ting: Responsible for page design and integrating all functions into the map screen display
 
+## Competition question
+
+https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/
+
+https://www.spaceappschallenge.org/nasa-space-apps-2024/challenges/tell-us-a-climate-story/?tab=details
+
+---
+
+
+### How to run
+
+`streamlit run app.py`
+
+
+-----
+<h2 align='center'>dataset</h2>
+
+### Other Dataset
 
 + Kaggle
     + https://www.kaggle.com/code/andrewmahandrew/temperature-map/notebook
@@ -29,7 +43,7 @@ Yuijuhn Ting: Responsible for page design and integrating all functions into the
     + https://www.kaggle.com/datasets/danielvalyano/country-coord
 
 
-**6. Github:**
++ Github:
   + https://github.com/alanjones2/st-choropleth/tree/main/data
   + https://github.com/sudikshanavik/CS661A_Big_Data/tree/main/dataset
   + https://github.com/datasets/population/blob/main/data/population.csv
@@ -74,6 +88,40 @@ https://data.giss.nasa.gov/gistemp/tabledata_v3/SH.Ts+dSST.csv
 
   > https://aistudio.google.com/app/apikey
 
+### 重要的參考 important reference
+  
+  https://github.com/szulcmaciej/climate-dashboard
+
+  https://github.com/abdulkerimnese/Climate_Change 
+
+  https://medium.com/omdena/climate-change-visualizations-from-words-to-actionable-insights-60f9b7dcc17c 
+   
+  https://earth.gov/ghgcenter/data-catalog/gra2pes-ghg-monthgrid-v1
+
+  https://github.com/sudikshanavik/CS661A_Big_Data/tree/main
+  
+  https://earth.gov/ghgcenter/custom-interfaces/urban-dashboard/?dataset=
+  
+  https://earth.gov/ghgcenter/stories/gra2pes
+
+  https://github.com/alanjones2/st-choropleth/tree/main
+  
+  https://github.com/winstonyym/urbdash  
+  
+  https://portal.mwater.co/?fbclid=IwZXh0bgNhZW0CMTEAAR079AwBaEzafWRn7vc0AyYDRa3NwF6-PP525tCTH6VjbHExFE191megOBY_aem_xkCRe5S67-SctY1u6jjCCw#/maps/a550d31f5e33401096492889061bacf9 
+  
+  https://figshare.com/articles/dataset/Global_Urban_Network_Dataset/22124219
+  
+  https://earth.gov/ghgcenter/exploration?search=gra2pes-ghg-monthgrid-v1&datasets=%5B%5D&taxonomy=%7B%7D > 資料集 dataset
+
+  https://github.com/divya-gh/Climate-Interactive-Dashboard/tree/main
+  
+  https://github.com/Tim-mhn/climate-map?tab=readme-ov-file
+
+  https://github.com/avoinorg/climate-map?tab=readme-ov-file
+
+  https://github.com/bartromgens/climatemaps/tree/master
+
 ---------------
 
 The data sets used in this project are all placed here. Please download and place them in the final folder. The folder name is data. The data sets can only be captured when the program is running.
@@ -91,9 +139,10 @@ base="dark"
 primaryColor="#fff200"
 
 font="monospace"
-```
 
 ### Demo
 
-https://github.com/user-attachments/assets/ab36b100-f9aa-4694-a8a3-1b350dfd3e8a
+
+https://github.com/user-attachments/assets/5df956d4-647e-4316-b060-c4f2695009ec
+
 
