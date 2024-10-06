@@ -112,7 +112,7 @@ https://data.giss.nasa.gov/gistemp/tabledata_v3/SH.Ts+dSST.csv
   
   https://figshare.com/articles/dataset/Global_Urban_Network_Dataset/22124219
   
-  https://earth.gov/ghgcenter/exploration?search=gra2pes-ghg-monthgrid-v1&datasets=%5B%5D&taxonomy=%7B%7D > 資料集 dataset
+  https://earth.gov/ghgcenter/exploration?search=gra2pes-ghg-monthgrid-v1&datasets=%5B%5D&taxonomy=%7B%7D 
 
   https://github.com/divya-gh/Climate-Interactive-Dashboard/tree/main
   
