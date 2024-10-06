@@ -15,9 +15,9 @@ from sqlalchemy import (
 # from api_keys import post_key , heroku_key
 # import json
 
-import os
+# import os
 # clear Screen
-os.system("cls")
+# os.system("cls")
 
 
 # create engine to postgres
@@ -161,7 +161,7 @@ def get_mean_and_year(df):
     grouped_df = df.groupby(['Area','Months'],sort=False).mean()
 
     # Rename and drop field1
-    grouped_df_mean= grouped_df.drop('field1', 1)
+    grouped_df_mean = grouped_df.drop('field1', 1)
 
     # get years
     year = grouped_df_mean.columns
@@ -267,8 +267,8 @@ def get_months(country='United States of America'):
                   }
         for month in months:
             mon_obj[month] = months_country_mean.loc[month, year]
-          
-        months_list.append(mon_obj) 
+
+        months_list.append(mon_obj)
 
     return months_list
 
