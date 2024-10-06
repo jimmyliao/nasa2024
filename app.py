@@ -11,7 +11,7 @@ import pyautogui
 
 from population import population_dashboard
 from progress import Progress, is_progress
-# from landing import landing
+from landing import landing
 from landing import landing
 from co2_flux_visualization import co2_flux_visualization
 from temperature_dashboard import temperature_dashboard

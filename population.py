@@ -6,7 +6,6 @@ from progress import Progress
 from streamlit_modal import Modal
 import streamlit.components.v1 as components
 
-
 def population_dashboard():
     # Load population data
     df_reshaped = pd.read_csv('data/population.csv')
