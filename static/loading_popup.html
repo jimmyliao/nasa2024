@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            font-size: 24px;
+            position: relative;
+        }
+        
+        .loader {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        /* Hide the loader by default */
+        
+        #loader {
+            display: none;
+        }
+    </style>
+    <script>
+        // Function to show the loader
+        function showLoader() {
+            document.getElementById('loader').style.display = 'flex';
+        }
+
+        // Function to hide the loader
+        function hideLoader() {
+            document.getElementById('loader').style.display = 'none';
+        }
+
+        // Automatically hide the loader after a specified time
+        window.onload = function() {
+            // Simulate loading time (adjust as needed)
+            setTimeout(hideLoader, 3000); // Change 3000 to the desired loading time in milliseconds
+        };
+    </script>
+</head>
+
+<body>
+    <div id="loader" class="loader">
+        <img src="static/loading1.gif" alt="Loading..." style="width: 50px; height: 50px;">
+        <img src="static/loading2.gif" alt="Loading..." style="width: 50px; height: 50px;">
+        <p>加载资源中，请稍候...</p>
+    </div>
+
+    <script language="javascript">
+        window.parent.document.getElementById('loader').click();
+    </script>
+</body>
+
+</html>

@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 
 _RELEASE = True
 
-def get_my_component_fuc(name ):
+def get_my_component_fuc(name):
     if not _RELEASE:
         return components.declare_component(
             name ,

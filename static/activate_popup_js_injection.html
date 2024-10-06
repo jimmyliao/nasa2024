@@ -1,0 +1,25 @@
+<script language="javascript">
+    function waitForElementToExist(selector) {
+        return new Promise(resolve => {
+            if (window.parent.document.querySelector(selector)) {
+                return resolve(window.parent.document.querySelector(selector));
+            }
+
+            const observer = new MutationObserver(() => {
+                if (window.parent.document.querySelector(selector)) {
+                    resolve(window.parent.document.querySelector(selector));
+                    observer.disconnect();
+                }
+            });
+
+            observer.observe(window.parent.document.body, {
+                subtree: true,
+                childList: true,
+            });
+        });
+    }
+
+    waitForElementToExist('#event_link').then(element => {
+        window.parent.document.getElementById('event_link').click();
+    });
+</script>

@@ -5,5 +5,7 @@ plotly
 sqlalchemy
 streamlit
 streamlit-lottie
-grpcio
+streamlit_modal
+# asyncore
+# pycopy-asyncore
 pyautogui
