@@ -5,6 +5,7 @@
   
 ![image](https://github.com/user-attachments/assets/2c92d4bd-1bd7-4849-b188-ccc445c6d4d7)
 
++ If you encounter a 500 response error reported by LLM, it is because of the API rate limit. Please do not refresh the web page or click to generate information too fast.
 
 ## team
 
