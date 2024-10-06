@@ -7,7 +7,7 @@ st.set_page_config(
 )
 
 import google.generativeai as genai
-import pyautogui
+# import pyautogui
 
 from population import population_dashboard
 from progress import Progress, is_progress
@@ -101,4 +101,4 @@ if is_progress(st, Progress.POPULATION_PAGE_AFTER_GEN_DATA):
     if st.columns(1)[0].button("Try another story from scratch", use_container_width=True, key="the_end"):
         st.session_state.progress = Progress.UNKNOWN
         st.balloons()
-        pyautogui.press('f5')
+        # pyautogui.press('f5')

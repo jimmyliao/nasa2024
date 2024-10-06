@@ -1,7 +1,7 @@
 # dependencies
-import os
+# import os
 #clear Screen
-os.system("cls")
+# os.system("cls")
 
 import pandas as pd
 import numpy as np
