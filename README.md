@@ -91,12 +91,9 @@ base="dark"
 primaryColor="#fff200"
 
 font="monospace"
+```
 
 ### Demo
-
-## Demo
-
-
 
 https://github.com/user-attachments/assets/ab36b100-f9aa-4694-a8a3-1b350dfd3e8a
 
