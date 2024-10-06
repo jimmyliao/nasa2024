@@ -1,7 +1,7 @@
 + DEMO
     + https://nasa2024-taiwan.streamlit.app/
 
-+ Please pay attention to the re-running icon because LLM will take some time to generate data.
++ Please pay attention to the running icon because LLM will take some time to generate data.
   
 ![image](https://github.com/user-attachments/assets/2c92d4bd-1bd7-4849-b188-ccc445c6d4d7)
 
